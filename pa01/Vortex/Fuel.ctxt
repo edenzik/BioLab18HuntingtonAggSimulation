@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=Space
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment1.text=\n\ Sets\ the\ scale\ to\ the\ random\ value\n
+comment2.params=
+comment2.target=void\ consume()
+comment2.text=\n\ Adds\ speed\ to\ the\ player\ once\ it\ is\ consumed.\n
+numComments=3

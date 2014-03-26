@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ This\ act\ method\ first\ spins\ the\ wormhole\ around\ to\ create\ a\ nice\ spinning\ illusion.\n\ Then\ if\ the\ player\ lands\ on\ it\ it\ removes\ all\ the\ objects\ on\ the\ board\ but\ the\ life\ object,\ and\ adds\ 20\ points.\n\ Then\ it\ removes\ itself.\n
+comment1.params=num
+comment1.target=void\ addScore(int)
+comment1.text=\n\ This\ method\ adds\ points\ to\ the\ player.\n
+numComments=2

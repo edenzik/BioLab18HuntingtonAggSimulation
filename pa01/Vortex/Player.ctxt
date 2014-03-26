@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=void\ control()
+comment1.text=\n\ This\ control\ method\ is\ the\ key\ controls\ for\ the\ player.\n\ When\ a\ key\ is\ called,\ the\ Player\ is\ rotated\ in\ the\ direction\ of\ indented\ motion,\ and\ the\ image\ of\ the\ \n\ ship\ is\ mirrord.\ Then\ the\ spaceship\ moves\ according\ to\ the\ speeed\ variable.\n\ When\ space\ is\ pressed,\ the\ ship\ fires\ a\ missile\ which\ orients\ itself\ according\ to\ the\ oreintation\ of\ the\n\ spaceship.\n
+comment2.params=
+comment2.target=void\ damage()
+comment2.text=\ \n\ This\ method\ reduces\ the\ health\ of\ the\ Player,\ and\ takes\ it\ out\ of\ the\ game\ if\ the\ health\ gets\ too\ low.\n\ Once\ this\ method\ is\ initialized,\ an\ explosion\ is\ added\ at\ the\ location\ the\ player\ dies.\n\ If\ the\ player's\ health\ is\ greater\ than\ 1,\ his\ location\ is\ randomized\ and\ a\ single\ health\ dot\ is\ reduced.\n\ Otherwise,\ the\ player\ dies\ and\ GAME\ OVER\ is\ displayed.\n
+comment3.params=
+comment3.target=void\ edge()
+comment3.text=\n\ This\ method\ is\ called\ when\ the\ player\ reaches\ the\ edge\ of\ the\ screen,\ at\ which\ point\ he\ spawns\ at\ the\ opposite\ end.\n\ This\ is\ to\ allow\ continues\ motion.\n
+comment4.params=Space
+comment4.target=void\ addedToWorld(greenfoot.World)
+comment4.text=\ \n\ This\ method\ is\ enacted\ once\ the\ player\ is\ added\ to\ the\ world.\ It\ resets\ the\ static\ variable\ speed\ to\ the\ default\ 2.\n
+numComments=5

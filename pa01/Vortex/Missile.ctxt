@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\nThis\ act\ method\ moves\ as\ long\ as\ it\ is\ within\ the\ bounds,\ at\ a\ speed\ three\ times\ faster\ than\ the\ players\ speed.\nIf\ it\ is\ out\ of\ bounds,\ it\ is\ removed\ from\ the\ world.\n
+comment1.params=x\ y
+comment1.target=boolean\ canMove(int,\ int)
+comment1.text=\n\ This\ method\ test\ if\ the\ enemy\ is\ within\ the\ bounderies\ of\ the\ world.\ If\ not,\ it\ returns\ false\ and\ is\ removed.\n
+numComments=2

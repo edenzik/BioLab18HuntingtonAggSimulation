@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=void\ fire()
+comment1.text=\n\ If\ a\ missile\ hits\ it,\ it\ explodes\ and\ vanishes\ along\ with\ the\ missile.\n
+comment2.params=
+comment2.target=void\ collideWithAstroid()
+comment2.text=\ \n\ If\ it\ collides\ with\ an\ astroid\ it\ disappears\ after\ an\ explosion.\n
+comment3.params=
+comment3.target=void\ collideWithComet()
+comment3.text=\n\ If\ it\ collides\ with\ another\ comet\ it\ disappears.\n
+comment4.params=
+comment4.target=void\ hurt()
+comment4.text=\n\ Damages\ the\ player\ if\ it\ hits,\ then\ removes\ itself.\n
+comment5.params=x\ y
+comment5.target=boolean\ canMove(int,\ int)
+comment5.text=\n\ If\ can\ move,\ it\ will\ keep\ moving.\n
+comment6.params=Space
+comment6.target=void\ addedToWorld(greenfoot.World)
+comment6.text=\n\ Once\ added,\ it\ turns\ in\ a\ random\ direction\ and\ goes\ in\ a\ random\ size.\n
+comment7.params=num
+comment7.target=void\ addScore(int)
+comment7.text=\n\ Adds\ score\ to\ the\ player.\n
+numComments=8
