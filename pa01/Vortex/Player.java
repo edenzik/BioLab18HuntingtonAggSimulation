@@ -95,5 +95,10 @@ public class Player extends Actor
     {
         speed = 2;
     }
+    
+    private boolean canMove()
+    {
+        return !(getX()>=getWorld().getWidth()-20 || getX()<=20 || getY()>=getWorld().getHeight()-20 || getY()<=20);
+    }
    
 }

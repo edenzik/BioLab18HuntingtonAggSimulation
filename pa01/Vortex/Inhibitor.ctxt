@@ -2,6 +2,6 @@
 comment0.params=
 comment0.target=void\ act()
 comment0.text=\n\ Act\ -\ do\ whatever\ the\ Inhibitor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-comment1.params=x\ y
-comment1.target=boolean\ canMove(int,\ int)
+comment1.params=
+comment1.target=boolean\ canMove()
 numComments=2

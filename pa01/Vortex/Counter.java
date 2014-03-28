@@ -15,16 +15,4 @@ public class Counter  extends Actor
     {
         setImage(new GreenfootImage("0", 20, Color.WHITE, Color.BLACK));
     }
-
-    /**
-     * Increase the total amount displayed on the counter, by a given amount.
-     */
-    public void bumpCount(int amount)
-    {
-        if (Space.life>0)
-        {
-        totalCount += amount;
-        }
-        setImage(new GreenfootImage("" + totalCount, 20, Color.WHITE, Color.BLACK));
-    }
 }

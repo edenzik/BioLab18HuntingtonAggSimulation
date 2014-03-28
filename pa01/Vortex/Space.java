@@ -35,18 +35,7 @@ public class Space extends World
     {
         addObject(new Player(), 350, 200);                          //Adds Player
         addObject(new NASA(), 300, 30);                             //Adds NASA logo on top
-        theCounter = new Counter();                                 //Sets up counter
-        addObject(theCounter, 30, 30);                              //Adds Counter
     }
-    
-    /**
-     * Sets up the counter
-     */
-    public Counter getCounter()                                     //Counter Method                        
-    {
-        return theCounter;
-    }
-
     /**
      * act() is a method which continously executes throughout the game.
      * Besides scrolling, it also introudces several elements into the game at random, 

@@ -8,6 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Inhibitor extends Actor
 {
+    private PolyQ polyq = new PolyQ();
+    
+    protected void addedToWorld(){
+        
+    
     /**
      * Act - do whatever the Inhibitor wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -16,7 +21,7 @@ public class Inhibitor extends Actor
     {
         Player player = (Player) getOneIntersectingObject(Player.class);
         int speed = player.speed;
-        if (canMove(getX(), getY()))
+        if (canMove())
         {
            move(speed*3);
         }
@@ -26,9 +31,14 @@ public class Inhibitor extends Actor
         }
     }   
     
-    private boolean canMove(int x, int y)
+    private void aggregate(){
+        
+    }
+    
+    
+    private boolean canMove()
     {
-        return !(x>=getWorld().getWidth()-20 || x<=20 || y>=getWorld().getHeight()-20 || y<=20);
+        return !(getX()>=getWorld().getWidth()-20 || getX()<=20 || getY()>=getWorld().getHeight()-20 || getY()<=20);
     }
 }
 
