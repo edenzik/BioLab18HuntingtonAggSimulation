@@ -44,14 +44,13 @@ public class Space extends World
      */
     public void act()
     {
-        /*List objectList = getObjects(null);
+        List<Actor> objectList = getObjects(null);
         for (Actor a: objectList){
             if (!canMove(a.getX(),a.getY()))
             {
                 removeObject(a);
             }
         }
-        */
     }
       
     /**
