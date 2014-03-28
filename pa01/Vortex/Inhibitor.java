@@ -8,14 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Inhibitor extends Actor
 {
-    private PolyQ polyq = new PolyQ();
-    private int speed = 0;
-    
-    protected void addedToWorld()
-    {
-        getWorld().addObject(polyq, getX()+5, getY()+5);
-    }
-        
+    int speed = 5;
     
     /**
      * Act - do whatever the Inhibitor wants to do. This method is called whenever

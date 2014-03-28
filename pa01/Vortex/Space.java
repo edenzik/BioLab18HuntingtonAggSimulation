@@ -65,7 +65,7 @@ public class Space extends World
     
     private boolean canMove(int x, int y)
     {
-        return !(x>=getWidth()-20 || x<=20 || y>=getWorld().getHeight()-20 || y<=20);
+        return !(x>=getWidth()-20 || x<=20 || y>=getHeight()-20 || y<=20);
     }
 }
 

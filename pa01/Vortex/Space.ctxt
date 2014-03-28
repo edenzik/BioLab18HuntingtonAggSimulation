@@ -11,4 +11,6 @@ comment2.text=\n\ act()\ is\ a\ method\ which\ continously\ executes\ throughout
 comment3.params=
 comment3.target=void\ addElements()
 comment3.text=\n\ Adds\ objects\ at\ random\ depending\ on\ a\ certain\ constant.\n\ If\ the\ object\ is\ helpful,\ diff\ decreases\ its\ frequency.\n\ If\ the\ object\ is\ harmful,\ diff\ increases\ its\ frequency.\n
-numComments=4
+comment4.params=x\ y
+comment4.target=boolean\ canMove(int,\ int)
+numComments=5
