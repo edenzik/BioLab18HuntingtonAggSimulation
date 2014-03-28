@@ -27,7 +27,7 @@ public class Missile extends Actor
     }
    
     /**
-     * This method test if the enemy is within the bounderies of the world. If not, it returns false and is removed.
+     * This method test if the missile is within the bounderies of the world. If not, it returns false and is removed.
      */
     private boolean canMove(int x, int y)
     {
