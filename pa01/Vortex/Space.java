@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot) 
+import java.util.*;
 
 /**
  * This is World Space, where the game will take place. 
@@ -41,8 +42,16 @@ public class Space extends World
      * Besides scrolling, it also introudces several elements into the game at random, 
      * Depending on the value of diff (the difficulty).
      */
-    public void act()                                              
+    public void act()
     {
+        /*List objectList = getObjects(null);
+        for (Actor a: objectList){
+            if (!canMove(a.getX(),a.getY()))
+            {
+                removeObject(a);
+            }
+        }
+        */
     }
       
     /**
@@ -52,6 +61,11 @@ public class Space extends World
      */
     private void addElements()
     {
+    }
+    
+    private boolean canMove(int x, int y)
+    {
+        return !(x>=getWidth()-20 || x<=20 || y>=getWorld().getHeight()-20 || y<=20);
     }
 }
 

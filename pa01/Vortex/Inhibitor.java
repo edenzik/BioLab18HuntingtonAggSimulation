@@ -9,8 +9,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Inhibitor extends Actor
 {
     private PolyQ polyq = new PolyQ();
+    private int speed = 0;
     
-    protected void addedToWorld(){
+    protected void addedToWorld()
+    {
+        getWorld().addObject(polyq, getX()+5, getY()+5);
+    }
         
     
     /**
@@ -19,8 +23,6 @@ public class Inhibitor extends Actor
      */
     public void act() 
     {
-        Player player = (Player) getOneIntersectingObject(Player.class);
-        int speed = player.speed;
         if (canMove())
         {
            move(speed*3);
