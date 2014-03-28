@@ -60,46 +60,17 @@ public class Player extends Actor
       }
       if (Greenfoot.getKey()=="space")
       {
-         if (getWorld().getObjects(Missile.class).isEmpty())
+         if (getWorld().getObjects(Inhibitor.class).isEmpty())
          {
              Greenfoot.playSound("Missile.wav");
-             getWorld().addObject(new Missile(), getX(), getY());
-             Missile missile = (Missile) getOneObjectAtOffset(0, 0, Missile.class);
-             missile.setRotation(getRotation());
+             getWorld().addObject(new Inhibitor(), getX(), getY());
+             Inhibitor inhibitor = (Inhibitor) getOneObjectAtOffset(0, 0, Inhibitor.class);
+             inhibitor.setRotation(getRotation());
       }
         
       }
       
     }
-    
-    /** 
-     * This method reduces the health of the Player, and takes it out of the game if the health gets too low.
-     * Once this method is initialized, an explosion is added at the location the player dies.
-     * If the player's health is greater than 1, his location is randomized and a single health dot is reduced.
-     * Otherwise, the player dies and GAME OVER is displayed.
-     */
-    public void damage()
-    {
-        World world = getWorld();
-        world.addObject(new Explosion(), getX(), getY());
-        
-            if (Space.life>1)
-            {
-               Space.life--;
-               Space.modifyLife = true;
-               setLocation(Greenfoot.getRandomNumber(200)+100, Greenfoot.getRandomNumber(200)+100);
-            }
-            else {
-                Space.life = 0;
-                Space.modifyLife = true;
-                world.addObject(new Navigate(), 300, 300);
-                for (Object navigate : world.getObjects(Navigate.class))  
-                {  
-                ((Navigate) navigate).setImage("GameOver.png");   
-                }  
-                world.removeObject(this);
-            }
-        }
       
    /**
     * This method is called when the player reaches the edge of the screen, at which point he spawns at the opposite end.

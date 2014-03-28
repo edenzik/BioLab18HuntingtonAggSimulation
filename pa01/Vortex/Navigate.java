@@ -15,7 +15,7 @@ public class Navigate extends Actor
     public void act() 
     {
 
-        if (Greenfoot.isKeyDown("enter") && Space.life ==5)
+        if (Greenfoot.isKeyDown("enter"))
         {
             Greenfoot.setWorld(new Space());
         }
