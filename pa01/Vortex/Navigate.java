@@ -17,7 +17,7 @@ public class Navigate extends Actor
 
         if (Greenfoot.isKeyDown("enter"))
         {
-            Greenfoot.setWorld(new Space());
+            Greenfoot.setWorld(new Cell());
         }
         
         if (Greenfoot.isKeyDown("H"))
