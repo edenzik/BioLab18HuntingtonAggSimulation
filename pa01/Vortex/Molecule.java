@@ -8,14 +8,24 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Molecule extends Actor
 {
-    
+    private int speed = 5;
     /**
      * Act - do whatever the Protein wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        move(10);
-    }   
+        move(speed);
+        
+    }
+    
+    protected int getSpeed(){
+        return speed;
+    }
+    
+    public void setSpeed(int speed){
+        this.speed = speed;
+    }
+    
     
 }

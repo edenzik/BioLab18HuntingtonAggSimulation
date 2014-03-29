@@ -2,4 +2,8 @@
 comment0.params=
 comment0.target=void\ act()
 comment0.text=\n\ Act\ -\ do\ whatever\ the\ Protein\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=1
+comment1.params=
+comment1.target=int\ getSpeed()
+comment2.params=speed
+comment2.target=void\ setSpeed(int)
+numComments=3

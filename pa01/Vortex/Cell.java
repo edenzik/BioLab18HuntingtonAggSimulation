@@ -21,7 +21,7 @@ public class Cell extends World
      */
     public Cell()
     {
-        super(600, 600, 1);                                         //Sets up the size of the world                               
+        super(600,600,1);                                         //Sets up the size of the world                               
         
         Greenfoot.setSpeed(50);                                     //Sets the speed for the gameplay                            
         
@@ -43,13 +43,15 @@ public class Cell extends World
      */
     public void act()
     {
-        List<Actor> objectList = getObjects(null);
-        for (Actor a: objectList){
+        List<Huntingtin> objectList = getObjects(Huntingtin.class);
+        for (Huntingtin a: objectList){
             if (!canMove(a.getX(),a.getY()))
             {
+                a.removeChain();
                 removeObject(a);
             }
         }
+        if (Greenfoot.getRandomNumber(1000)<30) addElements();
         
     }
       
@@ -60,12 +62,12 @@ public class Cell extends World
      */
     private void addElements()
     {
-        addObject(new Huntingtin(), 50, 50);                          //Adds Player
+        addObject(new Huntingtin(), Greenfoot.getRandomNumber(getWidth()), Greenfoot.getRandomNumber(getHeight()));
     }
     
     private boolean canMove(int x, int y)
     {
-        return !(x>=getWidth()-20 || x<=20 || y>=getHeight()-20 || y<=20);
+        return !(x>=getWidth()-1 || x<=1 || y>=getHeight()-1 || y<=1);
     }
 }
 

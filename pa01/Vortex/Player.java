@@ -35,7 +35,7 @@ public class Player extends Actor
       if (Greenfoot.isKeyDown("left")) 
       {
           setRotation(180);
-          GreenfootImage img = new GreenfootImage ("SpaceshipRight.gif");  
+          GreenfootImage img = new GreenfootImage ("MagicSchoolBusRight.png");  
           img.mirrorVertically();
           setImage(img);
           move(speed);
@@ -43,19 +43,21 @@ public class Player extends Actor
       if (Greenfoot.isKeyDown("right")) 
       {
           setRotation(0);
-          setImage("SpaceshipRight.gif");
+          setImage("MagicSchoolBusRight.png");
           move(speed);
       }
       if (Greenfoot.isKeyDown("up")) 
       {
           setRotation(270);
-          setImage("Spaceship.gif");
+          setImage("MagicSchoolBusRight.png");
           move(speed);
       }
       if (Greenfoot.isKeyDown("down")) 
       {
           setRotation(90);
-          setImage("Spaceship.gif");
+          GreenfootImage img = new GreenfootImage ("MagicSchoolBusRight.png");  
+          img.mirrorVertically();
+          setImage(img);
           move(speed);
       }
       if (Greenfoot.getKey()=="space")
