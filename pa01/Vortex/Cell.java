@@ -10,7 +10,7 @@ import java.util.*;
  * @author (Eden Zik) 
  * @version (1/24/13)
  */
-public class Space extends World 
+public class Cell extends World 
 { 
     /**
      * The Space() method sets up the initial variables for the world. 
@@ -19,7 +19,7 @@ public class Space extends World
      * Several background variables set up the background moving
      * Populate() sets up the initial population, spaceship included.
      */
-    public Space()
+    public Cell()
     {
         super(600, 600, 1);                                         //Sets up the size of the world                               
         
@@ -35,7 +35,6 @@ public class Space extends World
     public void populate()                                       
     {
         addObject(new Player(), 350, 200);                          //Adds Player
-        addObject(new NASA(), 300, 30);                             //Adds NASA logo on top
     }
     /**
      * act() is a method which continously executes throughout the game.
@@ -51,6 +50,7 @@ public class Space extends World
                 removeObject(a);
             }
         }
+        
     }
       
     /**
@@ -60,6 +60,7 @@ public class Space extends World
      */
     private void addElements()
     {
+        addObject(new Huntingtin(), 50, 50);                          //Adds Player
     }
     
     private boolean canMove(int x, int y)

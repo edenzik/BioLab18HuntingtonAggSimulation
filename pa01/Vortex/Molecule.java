@@ -15,7 +15,7 @@ public class Molecule extends Actor
      */
     public void act() 
     {
-        move(1);
+        move(10);
     }   
     
 }

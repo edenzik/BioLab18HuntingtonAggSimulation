@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=Space()
+comment0.target=Cell()
 comment0.text=\n\ The\ Space()\ method\ sets\ up\ the\ initial\ variables\ for\ the\ world.\ \n\ Super\ sets\ up\ world\ size.\n\ setSpeed\ sets\ up\ the\ speed\ of\ the\ game.\n\ Several\ background\ variables\ set\ up\ the\ background\ moving\n\ Populate()\ sets\ up\ the\ initial\ population,\ spaceship\ included.\n
 comment1.params=
 comment1.target=void\ populate()
