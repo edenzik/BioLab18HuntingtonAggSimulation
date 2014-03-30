@@ -22,11 +22,14 @@ public class PolyQ extends Molecule
         setRotation(getFather().getRotation());
         if (isTouching(PolyQ.class) && Greenfoot.getRandomNumber(100)<10){
             PolyQ touchingChain = (PolyQ) getOneIntersectingObject(PolyQ.class);
+            getFather().setIsAgg(true);
             Huntingtin newFather = touchingChain.getFather();
+            newFather.setIsAgg(true);
         if (!newFather.equals(getFather()) && newFather.getRotation()-getFather().getRotation()<=1)
         {
-            int newRotation = newFather.getRotation();
-            int newSpeed = newFather.getSpeed()/2;
+            
+            int newRotation = 90;
+            int newSpeed = 1;
             newFather.setSpeed(newSpeed);
             setRotation(newRotation);
             getFather().setRotation(newRotation);

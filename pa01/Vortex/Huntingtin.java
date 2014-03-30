@@ -9,7 +9,8 @@ import java.util.*;
  */
 public class Huntingtin extends Molecule
 {
-    private int polyQNum = 10;
+    private boolean isAgg = false;
+    private int polyQNum = 3;
     private int chainOrientationX = randomPositive();
     private int chainOrientationY = randomPositive();
     private int maxLength = 12;
@@ -57,6 +58,14 @@ public class Huntingtin extends Molecule
         for (PolyQ chain : chainList){
             getWorld().removeObject(chain);
         }
+    }
+    
+    public boolean getIsAgg(){
+        return isAgg;
+    }
+    
+    public void setIsAgg(boolean isAgg){
+        this.isAgg = isAgg;
     }
     
 }
