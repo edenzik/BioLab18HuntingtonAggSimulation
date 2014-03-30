@@ -29,15 +29,136 @@ class.Player.image=MagicSchoolBusLeft.png
 class.Player.superclass=greenfoot.Actor
 class.PolyQ.image=PolyQ.png
 class.PolyQ.superclass=Molecule
+<<<<<<< HEAD
 class.Protein.image=bananas.png
 class.Protein.superclass=greenfoot.Actor
 class.Space.image=space1.jpeg
+=======
+class.Protein.image=bananas.png
+class.Protein.superclass=greenfoot.Actor
+class.Space.image=space1.jpeg
+<<<<<<< HEAD
+=======
+=======
+class.Protein.image=bananas.png
+class.Protein.superclass=greenfoot.Actor
+class.Space.image=space1.jpeg
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+class.PolyQ.superclass=Molecule
+class.Space.image=space1.jpeg
+=======
+class.PolyQ.superclass=Protein
+class.Protein.image=bananas.png
+class.Protein.superclass=greenfoot.Actor
+class.Space.image=space1.jpeg
+<<<<<<< HEAD
+=======
+=======
+#Greenfoot properties
+#Fri Mar 28 19:45:01 EDT 2014
+target16.name=Space
+dependency35.to=Space
+target2.name=Player
+target9.name=Astroid
+dependency56.to=Astroid
+dependency11.type=UsesDependency
+dependency18.type=UsesDependency
+dependency15.from=Player
+dependency65.type=UsesDependency
+dependency62.from=Wormhole
+target19.width=90
+dependency8.to=Missile
+target5.naviview.expanded=true
+class.NASA.superclass=greenfoot.Actor
+target14.type=ClassTarget
+target19.naviview.expanded=false
+simulation.speed=50
+dependency25.type=UsesDependency
+dependency22.from=Astroid
+target15.width=80
+dependency29.from=Gold
+target15.height=50
+target7.type=ClassTarget
+target11.width=80
+dependency50.to=Explosion
+dependency25.to=StartScreen
+dependency32.type=UsesDependency
+dependency39.type=UsesDependency
+dependency36.from=Space
+target10.editor.y=22
+target10.editor.x=540
+dependency2.to=Player
+target6.naviview.expanded=false
+dependency46.to=Missile
+target6.editor.width=900
+dependency1.type=UsesDependency
+target16.y=10
+dependency41.type=UsesDependency
+target16.x=170
+target14.editor.width=900
+dependency8.type=UsesDependency
+dependency5.from=Player
+dependency67.to=Navigate
+dependency48.type=UsesDependency
+dependency45.from=Life
+target12.y=310
+target12.x=100
+target3.editor.y=114
+dependency55.type=UsesDependency
+dependency52.from=Enemy
+target18.width=90
+target3.editor.x=281
+project.charset=UTF-8
+dependency40.to=Player
+dependency15.to=Explosion
+dependency59.from=Wormhole
+target15.name=Fuel
+target5.height=50
+target1.name=Enemy
+target11.naviview.expanded=false
+version=2.5.0
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 class.Space.superclass=greenfoot.World
 class.StartScreen.image=StartPage.png
 class.StartScreen.superclass=greenfoot.World
 dependency1.from=StartScreen
 dependency1.to=Cell
 dependency1.type=UsesDependency
+<<<<<<< HEAD
+=======
+dependency10.from=Navigate
+<<<<<<< HEAD
+dependency10.to=StartScreen
+dependency10.type=UsesDependency
+dependency11.from=StartScreen
+dependency11.to=Player
+dependency11.type=UsesDependency
+dependency12.from=Player
+dependency12.to=Navigate
+dependency12.type=UsesDependency
+dependency13.from=PolyQ
+dependency13.to=Huntingtin
+dependency13.type=UsesDependency
+dependency14.from=Huntingtin
+dependency14.to=PolyQ
+=======
+dependency10.to=Help
+dependency10.type=UsesDependency
+dependency11.from=Navigate
+dependency11.to=StartScreen
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
 dependency10.from=Navigate
 dependency10.to=StartScreen
 dependency10.type=UsesDependency
@@ -59,14 +180,47 @@ dependency15.type=UsesDependency
 dependency16.from=Navigate
 dependency16.to=Cell
 dependency16.type=UsesDependency
+<<<<<<< HEAD
 dependency17.from=PolyQ
 dependency17.to=Huntingtin
 dependency17.type=UsesDependency
 dependency18.from=StartScreen
 dependency18.to=Navigate
+=======
+dependency17.from=Cell
+dependency17.to=Molecule
+=======
+dependency13.from=Player
+dependency13.to=Navigate
+dependency13.type=UsesDependency
+dependency14.from=Player
+dependency14.to=StartScreen
+>>>>>>> FETCH_HEAD
+dependency14.type=UsesDependency
+dependency15.from=Cell
+dependency15.to=Huntingtin
+dependency15.type=UsesDependency
+dependency16.from=Counter
+dependency16.to=Space
+dependency16.type=UsesDependency
+dependency17.from=Space
+dependency17.to=Player
+dependency17.type=UsesDependency
+dependency18.from=Space
+dependency18.to=Counter
+>>>>>>> FETCH_HEAD
 dependency18.type=UsesDependency
 dependency19.from=PolyQ
+<<<<<<< HEAD
 dependency19.to=Space
+=======
+<<<<<<< HEAD
+dependency19.to=Space
+=======
+dependency19.to=Huntingtin
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 dependency19.type=UsesDependency
 dependency2.from=Cell
 dependency2.to=Player
@@ -85,6 +239,40 @@ dependency23.to=Counter
 dependency23.type=UsesDependency
 dependency24.from=Navigate
 dependency24.to=Help
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+dependency10.type=UsesDependency
+dependency17.type=UsesDependency
+dependency14.from=Player
+dependency64.type=UsesDependency
+dependency61.from=Wormhole
+package.numTargets=17
+class.Navigate.superclass=greenfoot.Actor
+class.Player.superclass=greenfoot.Actor
+dependency68.from=Navigate
+dependency57.to=Comet
+target13.type=ClassTarget
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 dependency24.type=UsesDependency
 dependency25.from=Navigate
 dependency25.to=StartScreen
@@ -159,6 +347,44 @@ dependency46.from=Enemy
 dependency46.to=Missile
 dependency46.type=UsesDependency
 dependency47.from=Enemy
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+dependency35.from=Counter
+target8.editor.width=900
+target3.y=70
+target3.x=160
+dependency51.to=Space
+dependency26.to=Navigate
+target8.height=50
+target16.editor.width=900
+class.Molecule.image=bananas.png
+mainWindow.y=175
+mainWindow.x=398
+class.Huntingtin.image=ball.png
+target12.showInterface=false
+target3.showInterface=false
+dependency3.to=Space
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 dependency47.to=Astroid
 dependency47.type=UsesDependency
 dependency48.from=Enemy
@@ -169,6 +395,18 @@ dependency49.to=Comet
 dependency49.type=UsesDependency
 dependency5.from=Counter
 dependency5.to=Explosion
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+dependency5.from=Counter
+dependency5.to=Explosion
+=======
+dependency5.from=Navigate
+dependency5.to=Help
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 dependency5.type=UsesDependency
 dependency50.from=Enemy
 dependency50.to=Explosion
@@ -200,8 +438,25 @@ dependency58.type=UsesDependency
 dependency59.from=Wormhole
 dependency59.to=Gold
 dependency59.type=UsesDependency
+<<<<<<< HEAD
 dependency6.from=Help
 dependency6.to=Navigate
+=======
+dependency6.from=Navigate
+dependency6.to=Player
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+dependency6.from=Navigate
+dependency6.to=StartScreen
+=======
+dependency6.from=Space
+dependency6.to=NASA
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 dependency6.type=UsesDependency
 dependency60.from=Wormhole
 dependency60.to=Fuel
@@ -230,6 +485,7 @@ dependency67.type=UsesDependency
 dependency68.from=Navigate
 dependency68.to=Player
 dependency68.type=UsesDependency
+<<<<<<< HEAD
 dependency7.from=StartScreen
 dependency7.to=Player
 dependency7.type=UsesDependency
@@ -238,19 +494,112 @@ dependency8.to=Explosion
 dependency8.type=UsesDependency
 dependency9.from=Player
 dependency9.to=StartScreen
+=======
+<<<<<<< HEAD
+dependency7.from=Navigate
+=======
+<<<<<<< HEAD
+dependency7.from=Navigate
+dependency7.to=Explosion
+dependency7.type=UsesDependency
+dependency8.from=Player
+dependency8.to=StartScreen
+dependency8.type=UsesDependency
+dependency9.from=Help
+dependency9.to=Navigate
+dependency9.type=UsesDependency
+mainWindow.height=737
+mainWindow.width=870
+mainWindow.x=398
+mainWindow.y=22
+package.numDependencies=13
+=======
+<<<<<<< HEAD
+dependency7.from=Counter
+>>>>>>> FETCH_HEAD
+dependency7.to=Explosion
+dependency7.type=UsesDependency
+dependency8.from=Player
+dependency8.to=StartScreen
+dependency8.type=UsesDependency
+dependency9.from=Help
+dependency9.to=Navigate
+>>>>>>> FETCH_HEAD
 dependency9.type=UsesDependency
 mainWindow.height=739
 mainWindow.width=1144
-mainWindow.x=0
+mainWindow.x=4
 mainWindow.y=22
+<<<<<<< HEAD
 package.numDependencies=18
+=======
+<<<<<<< HEAD
+package.numDependencies=15
+package.numTargets=11
+project.charset=UTF-8
+simulation.speed=100
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=44
+target1.editor.y=42
+=======
+<<<<<<< HEAD
+package.numDependencies=19
+=======
+<<<<<<< HEAD
+package.numDependencies=17
+package.numTargets=12
+=======
+package.numDependencies=16
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 package.numTargets=11
 project.charset=UTF-8
 simulation.speed=50
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=44
 target1.editor.y=42
+=======
+<<<<<<< HEAD
+target1.editor.x=4
+=======
+<<<<<<< HEAD
+target1.editor.x=4
+target1.editor.y=22
+=======
+<<<<<<< HEAD
+target1.editor.x=46
+>>>>>>> FETCH_HEAD
+target1.editor.y=22
+target1.height=50
+target1.name=Help
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+<<<<<<< HEAD
+target1.x=10
+target1.y=190
+target10.editor.height=700
+target10.editor.width=900
+target10.editor.x=4
+target10.editor.y=22
+target10.height=50
+target10.name=PolyQ
+target10.naviview.expanded=false
+=======
+target1.x=70
+target1.y=70
+=======
+target1.editor.x=167
+target1.editor.y=119
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target1.height=50
 target1.name=Help
 target1.naviview.expanded=false
@@ -261,20 +610,58 @@ target1.x=190
 target1.y=130
 target10.editor.height=700
 target10.editor.width=900
+<<<<<<< HEAD
 target10.editor.x=40
 target10.editor.y=42
+=======
+target10.editor.x=235
+target10.editor.y=214
+>>>>>>> FETCH_HEAD
 target10.height=50
 target10.name=PolyQ
 target10.naviview.expanded=false
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
+<<<<<<< HEAD
 target10.x=160
 target10.y=70
+=======
+target10.x=190
+target10.y=190
 target11.editor.height=700
 target11.editor.width=900
 target11.editor.x=222
 target11.editor.y=114
+<<<<<<< HEAD
+=======
+=======
+target10.name=NASA
+target10.naviview.expanded=true
+>>>>>>> FETCH_HEAD
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=80
+target10.x=190
+target10.y=190
+>>>>>>> FETCH_HEAD
+target11.editor.height=700
+target11.editor.width=900
+target11.editor.x=222
+target11.editor.y=114
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+target11.editor.x=40
+target11.editor.y=42
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target11.height=50
 target11.name=StartScreen
 target11.naviview.expanded=true
@@ -283,6 +670,28 @@ target11.type=ClassTarget
 target11.width=90
 target11.x=10
 target11.y=250
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+target11.x=10
+target11.y=250
+=======
+<<<<<<< HEAD
+target11.x=70
+=======
+target11.x=190
+>>>>>>> FETCH_HEAD
+target11.y=10
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target12.editor.height=700
 target12.editor.width=900
 target12.editor.x=40
@@ -296,6 +705,10 @@ target12.width=80
 target12.x=10
 target12.y=310
 target13.editor.height=700
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 target13.editor.width=900
 target13.editor.x=40
 target13.editor.y=42
@@ -314,6 +727,80 @@ target14.editor.y=100
 target14.height=50
 target14.name=Gold
 target14.naviview.expanded=false
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+target17.naviview.expanded=false
+target19.y=10
+class.N.superclass=greenfoot.Actor
+target19.x=70
+dependency30.type=UsesDependency
+target2.height=50
+dependency37.type=UsesDependency
+dependency34.from=Space
+target15.y=250
+target15.x=190
+dependency31.to=Missile
+target19.editor.width=900
+target11.y=250
+target3.editor.height=700
+target11.x=10
+target12.editor.height=700
+dependency52.to=Counter
+target5.editor.width=900
+target17.showInterface=false
+target8.showInterface=false
+dependency27.to=Gold
+dependency3.from=Navigate
+dependency6.type=UsesDependency
+dependency43.from=BlackHole
+dependency46.type=UsesDependency
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+target13.editor.width=900
+target13.editor.x=40
+target13.editor.y=42
+target13.height=50
+target13.name=NASA
+target13.naviview.expanded=false
+target13.showInterface=false
+target13.type=ClassTarget
+target13.width=80
+target13.x=100
+target13.y=190
+target14.editor.height=700
+target14.editor.width=900
+target14.editor.x=95
+target14.editor.y=100
+target14.height=50
+target14.name=Gold
+target14.naviview.expanded=false
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class.Molecule.superclass=greenfoot.Actor
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
@@ -340,6 +827,59 @@ target16.name=Space
 target16.naviview.expanded=true
 target16.showInterface=false
 target16.type=ClassTarget
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
+>>>>>>> FETCH_HEAD
+dependency61.type=UsesDependency
+target18.y=10
+dependency18.from=Space
+target18.x=70
+dependency65.from=Life
+dependency68.type=UsesDependency
+dependency43.to=Player
+target14.y=250
+target10.type=ClassTarget
+target14.x=100
+dependency18.to=Counter
+package.numDependencies=68
+dependency21.type=UsesDependency
+target17.type=ClassTarget
+dependency25.from=Navigate
+dependency28.type=UsesDependency
+target10.y=310
+target10.x=10
+target3.type=ClassTarget
+dependency64.to=Space
+dependency39.to=Astroid
+target3.naviview.expanded=false
+target11.editor.y=114
+target11.editor.x=222
+dependency32.from=Astroid
+dependency35.type=UsesDependency
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target16.width=80
 target16.x=170
 target16.y=10
@@ -381,16 +921,81 @@ target19.x=70
 target19.y=10
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=171
 target2.editor.y=113
 target2.height=50
 target2.name=Huntingtin
+=======
+<<<<<<< HEAD
+target2.editor.x=171
+target2.editor.y=113
+target2.height=50
+target2.name=Huntingtin
+=======
+<<<<<<< HEAD
+target2.editor.x=200
+target2.editor.y=186
+target2.height=50
+target2.name=Huntingtin
+=======
+<<<<<<< HEAD
+target2.editor.x=89
+target2.editor.y=200
+target2.height=50
+target2.name=Huntingtin
+=======
+<<<<<<< HEAD
+target2.editor.x=40
+target2.editor.y=42
+=======
+target2.editor.x=299
+target2.editor.y=770
+>>>>>>> FETCH_HEAD
+target2.height=50
+target2.name=Navigate
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
+<<<<<<< HEAD
 target2.x=200
 target2.y=370
+=======
+<<<<<<< HEAD
+target2.x=200
+target2.y=370
+=======
+<<<<<<< HEAD
+target2.x=10
+=======
+<<<<<<< HEAD
+target2.x=10
+target2.y=130
+>>>>>>> FETCH_HEAD
+target3.editor.height=700
+target3.editor.width=900
+target3.editor.x=44
+target3.editor.y=42
+target3.height=50
+target3.name=Cell
+<<<<<<< HEAD
+target3.naviview.expanded=true
+target3.showInterface=false
+target3.type=ClassTarget
+target3.width=80
+target3.x=90
+target3.y=10
+=======
+=======
+target2.x=100
+>>>>>>> FETCH_HEAD
+target2.y=130
+>>>>>>> FETCH_HEAD
 target3.editor.height=700
 target3.editor.width=900
 target3.editor.x=40
@@ -403,18 +1008,96 @@ target3.type=ClassTarget
 target3.width=80
 target3.x=90
 target3.y=10
+<<<<<<< HEAD
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=40
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+target4.editor.height=700
+target4.editor.width=900
+target4.editor.x=44
+>>>>>>> FETCH_HEAD
 target4.editor.y=42
 target4.height=50
 target4.name=Molecule
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+target4.name=Molecule
+=======
+<<<<<<< HEAD
+target4.name=Counter
+=======
+target4.name=Navigate
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
+<<<<<<< HEAD
 target4.x=70
 target4.y=70
+=======
+<<<<<<< HEAD
+target4.x=70
+target4.y=70
+=======
+<<<<<<< HEAD
+target4.x=180
+target4.y=10
+=======
+<<<<<<< HEAD
+target4.x=90
+target4.y=10
+target5.editor.height=698
+=======
+<<<<<<< HEAD
+target4.x=190
+target4.y=190
+=======
+<<<<<<< HEAD
+target4.x=190
+target4.y=190
+>>>>>>> FETCH_HEAD
+target5.editor.height=700
+target5.editor.width=900
+target5.editor.x=44
+target5.editor.y=42
+target5.height=50
+target5.name=Player
+target5.naviview.expanded=false
+target5.showInterface=false
+target5.type=ClassTarget
+<<<<<<< HEAD
+target5.width=80
+target5.x=180
+=======
+<<<<<<< HEAD
+target5.width=80
+target5.x=70
+target5.y=70
+target6.editor.height=700
+target6.editor.width=900
+target6.editor.x=40
+=======
+target5.width=90
+target5.x=190
+target5.y=130
+=======
+target4.x=100
+target4.y=130
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=4
@@ -425,19 +1108,129 @@ target5.naviview.expanded=false
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
+<<<<<<< HEAD
 target5.x=190
+=======
+target5.x=90
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target5.y=10
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=4
 target6.editor.y=22
+<<<<<<< HEAD
+=======
 target6.height=50
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+target6.name=Inhibitor
+=======
+target6.editor.x=44
+>>>>>>> FETCH_HEAD
+target6.editor.y=42
+>>>>>>> FETCH_HEAD
+target6.height=50
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target6.name=Navigate
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=100
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+target6.x=100
+=======
+target6.x=160
+target6.y=70
+=======
+target6.name=Explosion
+>>>>>>> FETCH_HEAD
+target6.naviview.expanded=false
+target6.showInterface=false
+target6.type=ClassTarget
+<<<<<<< HEAD
+target6.width=80
+target6.x=160
+target6.y=70
+target7.editor.height=700
+target7.editor.width=900
+target7.editor.x=222
+target7.editor.y=114
+target7.height=50
+target7.name=Help
+target7.naviview.expanded=false
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=90
+target7.x=200
+target7.y=310
+=======
+=======
+=======
+target5.x=190
+target18.name=StartScreen
+target3.height=50
+dependency6.to=Missile
+target4.name=Navigate
+target1.y=310
+target1.x=200
+dependency10.from=Missile
+dependency13.type=UsesDependency
+target7.showInterface=false
+dependency60.type=UsesDependency
+target17.editor.y=22
+target3.width=80
+dependency17.from=Space
+target17.editor.x=200
+dependency64.from=BlackHole
+dependency67.type=UsesDependency
+class.PolyQ.superclass=Molecule
+dependency23.to=Counter
+dependency20.type=UsesDependency
+class.Inhibitor.image=blue-draught.png
+target16.type=ClassTarget
+dependency24.from=Navigate
+dependency27.type=UsesDependency
+target2.type=ClassTarget
+dependency44.to=BlackHole
+target9.type=ClassTarget
+dependency19.to=Space
+target1.editor.height=700
+target13.editor.y=42
+target13.editor.x=40
+target4.height=50
+dependency31.from=Astroid
+dependency34.type=UsesDependency
+target8.naviview.expanded=true
+target15.showInterface=false
+>>>>>>> FETCH_HEAD
+target6.showInterface=false
+dependency38.from=Comet
+dependency65.to=Space
+target10.naviview.expanded=false
+dependency13.to=Explosion
+dependency3.type=UsesDependency
+target15.editor.width=900
+target8.editor.height=700
+dependency40.from=Comet
+dependency43.type=UsesDependency
+dependency7.from=Missile
+>>>>>>> FETCH_HEAD
+target6.width=90
+target6.x=190
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target6.y=130
 target7.editor.height=700
 target7.editor.width=900
@@ -449,14 +1242,65 @@ target7.naviview.expanded=true
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
+<<<<<<< HEAD
 target7.x=200
 target7.y=370
+=======
+<<<<<<< HEAD
+target7.x=200
+target7.y=370
+=======
+<<<<<<< HEAD
+target7.x=70
+target7.y=70
+=======
+<<<<<<< HEAD
+target7.x=190
+target7.y=190
+=======
+target7.x=200
+target7.y=370
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target8.editor.height=700
 target8.editor.width=900
 target8.editor.x=44
 target8.editor.y=42
 target8.height=50
 target8.name=Explosion
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+target8.name=Explosion
+=======
+<<<<<<< HEAD
+target8.name=Huntingtin
+>>>>>>> FETCH_HEAD
+target8.naviview.expanded=false
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=90
+target8.x=190
+<<<<<<< HEAD
+=======
+target8.y=10
+target9.editor.height=700
+target9.editor.width=900
+target9.editor.x=40
+target9.editor.y=42
+target9.height=50
+target9.name=Molecule
+=======
+target8.name=Help
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target8.naviview.expanded=false
 target8.showInterface=false
 target8.type=ClassTarget
@@ -465,15 +1309,45 @@ target8.x=190
 target8.y=130
 target9.editor.height=700
 target9.editor.width=900
-target9.editor.x=171
-target9.editor.y=113
+target9.editor.x=44
+target9.editor.y=42
 target9.height=50
+<<<<<<< HEAD
 target9.name=Inhibitor
+=======
+target9.name=Inhibitor
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+target9.name=Inhibitor
+=======
+target9.name=Huntingtin
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 target9.naviview.expanded=true
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
+<<<<<<< HEAD
 target9.x=10
 target9.y=130
 version=2.4.0
+=======
+<<<<<<< HEAD
+target9.x=160
+target9.y=70
+=======
+target9.x=200
+target9.y=370
+<<<<<<< HEAD
+version=2.4.0
+world.lastInstantiated=Help
+=======
+>>>>>>> FETCH_HEAD
+version=2.5.0
+>>>>>>> FETCH_HEAD
 world.lastInstantiated=StartScreen

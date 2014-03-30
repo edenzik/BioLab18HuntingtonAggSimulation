@@ -45,7 +45,7 @@ public class Cell extends World
     {
         List<Huntingtin> objectList = getObjects(Huntingtin.class);
         for (Huntingtin a: objectList){
-            if (!canMove(a.getX(),a.getY()))
+            if (!canMove(a.getX(),a.getY()) && a.getIsAgg()==false)
             {
                 a.removeChain();
                 removeObject(a);
