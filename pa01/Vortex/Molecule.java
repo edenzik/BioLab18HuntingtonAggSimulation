@@ -17,6 +17,7 @@ public class Molecule extends Actor
     {
         move(speed);
         
+        
     }
     
     protected int getSpeed(){
