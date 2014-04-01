@@ -11,15 +11,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Player extends Actor
 {
-    public static int speed = 2;
+    public static int speed = 100;
     public static int locX = 0;
     public static int locY = 0;
     
     public void act() 
     {
         control();
-        locX=getX();
-        locY=getY();
+        this.locX=getX();
+        this.locY=getY();
         edge();
 
     }  
@@ -38,19 +38,16 @@ public class Player extends Actor
           GreenfootImage img = new GreenfootImage ("MagicSchoolBusRight.png");  
           img.mirrorVertically();
           setImage(img);
-          move(speed);
       }
       if (Greenfoot.isKeyDown("right")) 
       {
           setRotation(0);
           setImage("MagicSchoolBusRight.png");
-          move(speed);
       }
       if (Greenfoot.isKeyDown("up")) 
       {
           setRotation(270);
           setImage("MagicSchoolBusRight.png");
-          move(speed);
       }
       if (Greenfoot.isKeyDown("down")) 
       {
@@ -58,8 +55,9 @@ public class Player extends Actor
           GreenfootImage img = new GreenfootImage ("MagicSchoolBusRight.png");  
           img.mirrorVertically();
           setImage(img);
-          move(speed);
+          
       }
+      if (getOneIntersectingObject(Molecule.class) == null) move(speed);
       if (Greenfoot.getKey()=="space")
       {
          if (getWorld().getObjects(Inhibitor.class).isEmpty())
@@ -95,12 +93,12 @@ public class Player extends Actor
      */
     protected void addedToWorld(World Space)
     {
-        speed = 2;
+        speed = 5;
     }
     
     private boolean canMove()
     {
-        return !(getX()>=getWorld().getWidth()-20 || getX()<=20 || getY()>=getWorld().getHeight()-20 || getY()<=20);
+        return !(getX()>=getWorld().getWidth()-20 || getX()<=20 || getY()>=getWorld().getHeight()-20 || getY()<=20 && getOneIntersectingObject(Molecule.class) == null);
     }
    
 }

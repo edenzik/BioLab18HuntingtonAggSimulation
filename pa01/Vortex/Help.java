@@ -16,19 +16,17 @@ public class Help extends World
     public Help()
     {    
         super(600, 600, 1);                     // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        addObject(new Navigate(), 178, 23);      //Adds the navigation menu
-        changeNavigationImage();                //Changes image of navigation menu
 
     }
     
     /**
      * This method changes the image of the navigiation menu to one that fits the screen it is in.
      */
-    public void changeNavigationImage()
+    public void act()
     {
-        for (Object navigate : getObjects(Navigate.class))  
-        {  
-         ((Navigate) navigate).setImage("PressEscape.png");   
-        }  
+        if (Greenfoot.isKeyDown("escape"))
+        {
+            Greenfoot.setWorld(new StartScreen());
+        }
     }
 }
