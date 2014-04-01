@@ -19,6 +19,22 @@ public class Inhibitor extends Actor
         if (canMove())
         {
            move(speed*3);
+           if(isTouching(Huntingtin.class))
+           {
+               Huntingtin touching = (Huntingtin) getOneIntersectingObject(Huntingtin.class);
+               if(!touching.getIsInhibited()&&!touching.getIsAgg())
+               {
+                   touching.setIsInhibited(true);
+                   GreenfootImage inhibited = new GreenfootImage("HuntingtonInhibited.png");
+                   inhibited.scale(inhibited.getHeight(),inhibited.getWidth());
+                   touching.setImage(inhibited);
+                   
+               }
+               else
+               {
+                   getWorld().removeObject(this);
+               }
+           }
         }
         else
         {

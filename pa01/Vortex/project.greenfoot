@@ -2,16 +2,25 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 >>>>>>>=FETCH_HEAD
+<<<<<<< HEAD
 class.Cell.image=Background.png
 class.Cell.superclass=greenfoot.World
 class.Counter.superclass=greenfoot.Actor
 class.Explosion.image=explosion.png
 class.Explosion.superclass=greenfoot.Actor
+=======
+class.Cell.image=NewBackground.png
+class.Cell.superclass=greenfoot.World
+>>>>>>> FETCH_HEAD
 class.Help.image=Help.png
 class.Help.superclass=greenfoot.World
 class.Huntingtin.image=Huntington.png
 class.Huntingtin.superclass=Molecule
+<<<<<<< HEAD
 class.Inhibitor.image=blue-draught.png
+=======
+class.Inhibitor.image=CongoRed.png
+>>>>>>> FETCH_HEAD
 class.Inhibitor.superclass=greenfoot.Actor
 class.Life.image=beeper.png
 class.Life.superclass=greenfoot.Actor
@@ -38,6 +47,7 @@ class.StartScreen.superclass=greenfoot.World
 dependency1.from=StartScreen
 dependency1.to=Cell
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=Navigate
 dependency10.to=StartScreen
 dependency10.type=UsesDependency
@@ -67,6 +77,37 @@ dependency18.to=Counter
 dependency18.type=UsesDependency
 dependency19.from=PolyQ
 dependency19.to=Space
+=======
+dependency10.from=PolyQ
+dependency10.to=Huntingtin
+dependency10.type=UsesDependency
+dependency11.from=Inhibitor
+dependency11.to=Huntingtin
+dependency11.type=UsesDependency
+dependency12.from=Huntingtin
+dependency12.to=Cell
+dependency12.type=UsesDependency
+dependency13.from=StartScreen
+dependency13.to=Help
+dependency13.type=UsesDependency
+dependency14.from=Help
+dependency14.to=Cell
+dependency14.type=UsesDependency
+dependency15.from=Help
+dependency15.to=StartScreen
+dependency15.type=UsesDependency
+dependency16.from=Player
+dependency16.to=Molecule
+dependency16.type=UsesDependency
+dependency17.from=PolyQ
+dependency17.to=Huntingtin
+dependency17.type=UsesDependency
+dependency18.from=StartScreen
+dependency18.to=Navigate
+dependency18.type=UsesDependency
+dependency19.from=Inhibitor
+dependency19.to=Huntingtin
+>>>>>>> FETCH_HEAD
 dependency19.type=UsesDependency
 dependency2.from=Cell
 dependency2.to=Player
@@ -101,7 +142,11 @@ dependency28.type=UsesDependency
 dependency29.from=Gold
 dependency29.to=Space
 dependency29.type=UsesDependency
+<<<<<<< HEAD
 dependency3.from=Navigate
+=======
+dependency3.from=Help
+>>>>>>> FETCH_HEAD
 dependency3.to=Help
 dependency3.type=UsesDependency
 dependency30.from=Gold
@@ -134,8 +179,13 @@ dependency38.type=UsesDependency
 dependency39.from=Comet
 dependency39.to=Astroid
 dependency39.type=UsesDependency
+<<<<<<< HEAD
 dependency4.from=Player
 dependency4.to=StartScreen
+=======
+dependency4.from=Help
+dependency4.to=Huntingtin
+>>>>>>> FETCH_HEAD
 dependency4.type=UsesDependency
 dependency40.from=Comet
 dependency40.to=Player
@@ -167,8 +217,13 @@ dependency48.type=UsesDependency
 dependency49.from=Enemy
 dependency49.to=Comet
 dependency49.type=UsesDependency
+<<<<<<< HEAD
 dependency5.from=Help
 dependency5.to=Navigate
+=======
+dependency5.from=Player
+dependency5.to=StartScreen
+>>>>>>> FETCH_HEAD
 dependency5.type=UsesDependency
 dependency50.from=Enemy
 dependency50.to=Explosion
@@ -200,8 +255,13 @@ dependency58.type=UsesDependency
 dependency59.from=Wormhole
 dependency59.to=Gold
 dependency59.type=UsesDependency
+<<<<<<< HEAD
 dependency6.from=Player
 dependency6.to=Navigate
+=======
+dependency6.from=Huntingtin
+dependency6.to=PolyQ
+>>>>>>> FETCH_HEAD
 dependency6.type=UsesDependency
 dependency60.from=Wormhole
 dependency60.to=Fuel
@@ -230,6 +290,7 @@ dependency67.type=UsesDependency
 dependency68.from=Navigate
 dependency68.to=Player
 dependency68.type=UsesDependency
+<<<<<<< HEAD
 dependency7.from=Navigate
 dependency7.to=Player
 dependency7.type=UsesDependency
@@ -245,6 +306,23 @@ mainWindow.x=4
 mainWindow.y=22
 package.numDependencies=14
 package.numTargets=11
+=======
+dependency7.from=StartScreen
+dependency7.to=Player
+dependency7.type=UsesDependency
+dependency8.from=Cell
+dependency8.to=Huntingtin
+dependency8.type=UsesDependency
+dependency9.from=Player
+dependency9.to=Inhibitor
+dependency9.type=UsesDependency
+mainWindow.height=748
+mainWindow.width=875
+mainWindow.x=51
+mainWindow.y=22
+package.numDependencies=16
+package.numTargets=8
+>>>>>>> FETCH_HEAD
 project.charset=UTF-8
 simulation.speed=50
 target1.editor.height=700
@@ -257,12 +335,21 @@ target1.naviview.expanded=false
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=90
+<<<<<<< HEAD
 target1.x=190
 target1.y=130
 target10.editor.height=700
 target10.editor.width=900
 target10.editor.x=44
 target10.editor.y=42
+=======
+target1.x=200
+target1.y=310
+target10.editor.height=700
+target10.editor.width=900
+target10.editor.x=0
+target10.editor.y=22
+>>>>>>> FETCH_HEAD
 target10.height=50
 target10.name=PolyQ
 target10.naviview.expanded=false
@@ -274,7 +361,11 @@ target10.y=70
 target11.editor.height=700
 target11.editor.width=900
 target11.editor.x=222
+<<<<<<< HEAD
 target11.editor.y=114
+=======
+target11.editor.y=59
+>>>>>>> FETCH_HEAD
 target11.height=50
 target11.name=StartScreen
 target11.naviview.expanded=true
@@ -381,8 +472,13 @@ target19.x=70
 target19.y=10
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=44
 target2.editor.y=42
+=======
+target2.editor.x=380
+target2.editor.y=22
+>>>>>>> FETCH_HEAD
 target2.height=50
 target2.name=Huntingtin
 target2.naviview.expanded=true
@@ -404,9 +500,15 @@ target3.width=80
 target3.x=90
 target3.y=10
 target4.editor.height=700
+<<<<<<< HEAD
 target4.editor.width=900
 target4.editor.x=44
 target4.editor.y=42
+=======
+target4.editor.width=715
+target4.editor.x=0
+target4.editor.y=22
+>>>>>>> FETCH_HEAD
 target4.height=50
 target4.name=Molecule
 target4.naviview.expanded=true
@@ -429,14 +531,22 @@ target5.x=190
 target5.y=10
 target6.editor.height=700
 target6.editor.width=900
+<<<<<<< HEAD
 target6.editor.x=44
 target6.editor.y=42
 target6.height=50
 target6.name=Navigate
+=======
+target6.editor.x=0
+target6.editor.y=22
+target6.height=50
+target6.name=Inhibitor
+>>>>>>> FETCH_HEAD
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
+<<<<<<< HEAD
 target6.x=100
 target6.y=130
 target7.editor.height=700
@@ -467,13 +577,50 @@ target9.editor.height=700
 target9.editor.width=900
 target9.editor.x=4
 target9.editor.y=1
+=======
+target6.x=200
+target6.y=370
+target7.editor.height=700
+target7.editor.width=900
+target7.editor.x=673
+target7.editor.y=335
+target7.height=50
+target7.name=PolyQ
+target7.naviview.expanded=false
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=80
+target7.x=160
+target7.y=70
+target8.editor.height=700
+target8.editor.width=900
+target8.editor.x=114
+target8.editor.y=56
+target8.height=50
+target8.name=StartScreen
+target8.naviview.expanded=true
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=90
+target8.x=10
+target8.y=250
+target9.editor.height=700
+target9.editor.width=900
+target9.editor.x=0
+target9.editor.y=22
+>>>>>>> FETCH_HEAD
 target9.height=50
 target9.name=Inhibitor
 target9.naviview.expanded=true
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
+<<<<<<< HEAD
 target9.x=10
 target9.y=130
+=======
+target9.x=200
+target9.y=370
+>>>>>>> FETCH_HEAD
 version=2.5.0
 world.lastInstantiated=StartScreen

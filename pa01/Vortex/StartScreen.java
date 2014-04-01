@@ -16,11 +16,30 @@ public class StartScreen extends World
     public StartScreen()
     {    
         super(600, 600, 1);                 // Create a new world with 600x400 cells with a cell size of 1x1 pixels.3
-        addObject(new Navigate(), 182, 460);   //Adds the start Object
     }
 
-    /**
-     * This resets the static variables in the game to their default positions.
-     */
+    public void act() 
+    {
+
+        if (Greenfoot.isKeyDown("enter"))
+        {
+            Greenfoot.setWorld(new Cell());
+        }
+        
+        if (Greenfoot.isKeyDown("H"))
+        {
+            Greenfoot.setWorld(new Help());
+        }
+       
+        if (Greenfoot.isKeyDown("escape"))
+        {
+            Greenfoot.setWorld(new StartScreen());// Add your action code here.
+        }
+       
+        if (Greenfoot.isKeyDown("space"))
+        {
+            Greenfoot.setWorld(new StartScreen());// Add your action code here.
+        }
+    }   
 
 }

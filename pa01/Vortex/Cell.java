@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot) 
 import java.util.*;
+import javax.swing.JOptionPane;
 
 /**
  * This is World Space, where the game will take place. 
@@ -19,9 +20,14 @@ public class Cell extends World
      * Several background variables set up the background moving
      * Populate() sets up the initial population, spaceship included.
      */
+    public int numPolyQ = 3;
     public Cell()
     {
+        
         super(600,600,1);                                         //Sets up the size of the world                               
+        
+        String stringPolyQ = JOptionPane.showInputDialog ("Input number of Poly-Glutamines"); 
+        numPolyQ = Integer.parseInt ( stringPolyQ);
         
         Greenfoot.setSpeed(50);                                     //Sets the speed for the gameplay                            
         
@@ -43,15 +49,7 @@ public class Cell extends World
      */
     public void act()
     {
-        List<Huntingtin> objectList = getObjects(Huntingtin.class);
-        for (Huntingtin a: objectList){
-            if (!canMove(a.getX(),a.getY()) && a.getIsAgg()==false)
-            {
-                a.removeChain();
-                removeObject(a);
-            }
-        }
-        if (Greenfoot.getRandomNumber(1000)<30) addElements();
+        if (Greenfoot.getRandomNumber(1000)<10) addElements();
         
     }
       

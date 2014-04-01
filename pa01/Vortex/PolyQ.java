@@ -9,37 +9,47 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class PolyQ extends Molecule
 {
   private Huntingtin father;
+  int counter = 0;
     protected void addedToWorld(World world)
     {
         GreenfootImage img = getImage();
-        img.scale(img.getWidth()/20,img.getHeight()/20);
+        img.scale(img.getWidth(),img.getHeight());
         setImage(img);
     }
     
   public void act() 
     {
-        move(getSpeed());
-        setRotation(getFather().getRotation());
-        if (isTouching(PolyQ.class) && Greenfoot.getRandomNumber(100)<10){
-            PolyQ touchingChain = (PolyQ) getOneIntersectingObject(PolyQ.class);
-            getFather().setIsAgg(true);
-            Huntingtin newFather = touchingChain.getFather();
-            newFather.setIsAgg(true);
-        if (!newFather.equals(getFather()) && newFather.getRotation()-getFather().getRotation()<=1)
+        if(!this.getFather().getIsAgg())
         {
-            
-            int newRotation = 90;
-            int newSpeed = 1;
-            newFather.setSpeed(newSpeed);
-            setRotation(newRotation);
-            getFather().setRotation(newRotation);
-            getFather().setChainRotation(newRotation);
-            setSpeed(newSpeed);
-            getFather().setSpeed(newSpeed);
-            getFather().setChainSpeed(newSpeed);
+            move(getSpeed());
+            setRotation(getFather().getRotation());
         }
-            
-            
+        if(!this.getFather().getIsInhibited())
+        {
+            if (this.isTouching(PolyQ.class)){
+                PolyQ touchingChain = (PolyQ) getOneIntersectingObject(PolyQ.class);
+                Huntingtin newFather = touchingChain.getFather();
+                if(!newFather.equals(this.getFather()) && !newFather.getIsInhibited() && newFather.getRotation()-getFather().getRotation()<=30)
+                {
+                    counter++;
+                    System.out.println("here "+counter);
+                    getFather().setIsAgg(true);
+                    newFather.setIsAgg(true);
+                   if (!newFather.equals(getFather()) )
+                    {
+                        
+                        int newRotation = 90;
+                        //int newSpeed = 0;
+                        //newFather.setSpeed(newSpeed);
+                        setRotation(newRotation);
+                        getFather().setRotation(newRotation);
+                        getFather().setChainRotation(newRotation);
+                       // setSpeed(newSpeed);
+                        //getFather().setSpeed(newSpeed);
+                        //getFather().setChainSpeed(newSpeed);
+                    }
+                }
+            }
         }
     }
     
